@@ -6,6 +6,25 @@
   grid-gap: 20px;
 }
 
-.Pokegame-h1 {
-  font: 5px;
+.Pokegame-body1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Pokegame-winner {
+  color: #4caf50;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.Pokegame-loser {
+  color: #e91e63;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.Pokegame-exp {
+  font-weight: bold;
+  margin-top: 0.5rem;
 }
