@@ -11,8 +11,10 @@ export const Pokecard = (props) => {
     
     return (
         <div className = "Pokecard">   
-            <p className="Pokecard-title">{props.pokemonName}</p>
+            <div className="Pokecard-title">{props.pokemonName}</div>
+            <div className = "Pokecard-image">
             <img alt="pokemons" src={ imgSrc }/>
+            </div>
             <div className="Pokecard-data">{`Type: ${props.pokemonType}`}</div>
             <div className="Pokecard-data">{`EXP: ${props.pokemonExp}`}</div>
         </div>
