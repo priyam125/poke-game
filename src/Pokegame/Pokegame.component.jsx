@@ -20,9 +20,6 @@ export const Pokegame = (props) => {
 
      let list = "", list1 = "", title1 = "", title2 = "";
 
-     console.log(sumExp1);
-     console.log(sumExp2);
-
      if (sumExp1 > sumExp2) {
          list = <Pokedex pokemons = {arr1} />
          list1 = <Pokedex pokemons = {arr2} />
